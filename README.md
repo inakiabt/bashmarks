@@ -2,28 +2,28 @@
 
 ## Install
 
-1. git clone git://github.com/huyng/bashmarks.git
+1. git clone git://github.com/inakiabt/bashmarks.git
 2. make install
 3. source **~/.local/bin/bashmarks.sh** from within your **~.bash\_profile** or **~/.bashrc** file
 
 ## Shell Commands
 
-    s <bookmark_name> - Saves the current directory as "bookmark_name"
-    g <bookmark_name> - Goes (cd) to the directory associated with "bookmark_name"
-    p <bookmark_name> - Prints the directory associated with "bookmark_name"
-    d <bookmark_name> - Deletes the bookmark
-    l                 - Lists all available bookmarks
-    
+    ms <bookmark_name> - Saves the current directory as "bookmark_name"
+    mg <bookmark_name> - Goes (cd) to the directory associated with "bookmark_name"
+    mp <bookmark_name> - Prints the directory associated with "bookmark_name"
+    md <bookmark_name> - Deletes the bookmark
+    ml                 - Lists all available bookmarks
+
 ## Example Usage
 
     $ cd /var/www/
-    $ s webfolder
+    $ ms webfolder
     $ cd /usr/local/lib/
-    $ s locallib
-    $ l
-    $ g web<tab>
-    $ g webfolder
+    $ ms locallib
+    $ ml
+    $ mg web<tab>
+    $ mg webfolder
 
 ## Where Bashmarks are stored
-    
+
 All of your directory bookmarks are saved in a file called ".sdirs" in your HOME directory.
